@@ -1,0 +1,4 @@
+node_modules/
+.diagrams-cli/
+*.log
+.DS_Store

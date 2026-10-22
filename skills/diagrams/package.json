@@ -1,0 +1,16 @@
+{
+  "name": "@jibaru/diagrams-skill",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Claude skill: generate architecture diagrams from SST / Terraform source with diagrams-js",
+  "scripts": {
+    "find": "bun scripts/find-node.ts",
+    "render": "bun scripts/render.ts",
+    "test": "bun test tests"
+  },
+  "dependencies": {
+    "diagrams-js": "0.8.0",
+    "sharp": "0.34.5"
+  }
+}
